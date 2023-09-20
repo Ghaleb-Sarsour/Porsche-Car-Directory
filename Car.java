@@ -4,14 +4,18 @@ public class Car{
         CarDirectroy Car = new CarDirectroy();
 
         //Getting Random Model
-        Car.SetRandModel();
-        String Model = Car.GetRandModel();
-        System.out.println(Model);
+        Car.setRandModel();
+        String Model = Car.getRandModel();
 
         //Getting Random Make
-        Car.SetRandMake(Model);
+        Car.setRandMake(Model);
         String Make = Car.getRandMake();
-        System.out.println(Make);
+
+        //Getting Random Trim
+        Car.setRandTrim(Model, Make);
+        String Trim = Car.getRandTrim();
+        //Printing Car
+        System.out.print("Porsche " + Model + " " + Make + " " + Trim);
     }
     
 }
