@@ -12,6 +12,7 @@ public class Car{
         Scanner CarGen = new Scanner(System.in);
         System.out.print("How Many Cars Do You Want To Generate?: ");
         int NumofCars = CarGen.nextInt();
+        CarGen.close();
 
         //For loop based off of number of cars chosen by user
         for(int i = 0; i < NumofCars; i++){
