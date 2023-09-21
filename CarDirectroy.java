@@ -46,9 +46,6 @@ public class CarDirectroy {
 
     //Constuctor
     public CarDirectroy(){
-        String CarMake;
-        String CarModel;
-        String CarTrim;
     }
 
     //Setting the Random Model
