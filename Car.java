@@ -17,7 +17,6 @@ public class Car{
         //For loop based off of number of cars chosen by user
         for(int i = 0; i < NumofCars; i++){
 
-
             //Getting Random Model
             Car.setRandModel();
             String Model = Car.getRandModel();
