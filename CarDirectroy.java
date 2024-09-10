@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class CarDirectroy {
 
-    //Var for Make and Model of Generated Car (Macan Has Only One Model And Blank Is For Default)
+    //Var for Make and Model of Generated Car (Macan Has Only One Make And Blank Strings Is For The Default Trim)
     String CarMake = "";
     String CarModel = "";
     String CarTrim = "";
